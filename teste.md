@@ -9,21 +9,6 @@
       width: 100%;
       border-collapse: collapse;
     }
-
-    th, td {
-      border: 1px solid #000;
-      padding: 8px;
-      text-align: left;
-    }
-
-    th {
-      background-color: #f2f2f2;
-    }
-
-    h1 {
-      text-align: center;
-      margin: 20px 0;
-    }
   </style>
 </head>
 <body>
