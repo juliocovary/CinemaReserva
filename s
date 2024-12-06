@@ -1,14 +1,47 @@
-# 1. História de Usuário
+# 1. História de Usuária
 
-| ID    | História de Usuário                                                                                   | Critérios de Aceitação                                                                                                        | Prioridade | RF/RNF relacionado |
-|-------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------|---------------------|
-| US01  | Como profissional da saúde, quero consultar rapidamente a posologia de um medicamento, para obter informações precisas e tomar decisões com agilidade. | 1. O sistema deve permitir busca por nome do medicamento. <br>2. A posologia deve ser exibida de forma clara e detalhada. | Média      | RF01                |
-| US02  | Como profissional da saúde, quero que o sistema calcule automaticamente a dose com base no peso e idade do paciente, para evitar erros manuais e garantir a segurança do tratamento. | 1. O sistema deve aceitar idade e peso como entrada. <br>2. A dose calculada deve ser exibida imediatamente após a entrada dos dados. | Alta       | RF02                |
-| US03  | Como profissional da saúde, quero que o sistema considere ajustes de dose para pacientes pediátricos obesos, para evitar que a dose ultrapasse o limite recomendado para crianças. | 1. O sistema deve identificar automaticamente quando o paciente é pediátrico e obeso. <br>2. Ajustes de dose devem ser feitos e exibidos. | Alta       | RF03                |
-| US04  | Como profissional da saúde, quero registrar informações como idade, peso e condição do paciente (pediátrico ou adulto), para personalizar o cálculo das doses de acordo com o perfil do paciente. | 1. O sistema deve aceitar entrada de idade, peso e condição (pediátrico ou adulto). <br>2. As informações devem ser armazenadas para uso futuro no cálculo. | Alta       | RF04                |
-| US05  | Como profissional da saúde, quero que o sistema sugira automaticamente a forma de apresentação do medicamento (como comprimido ou líquido), para otimizar a administração do tratamento. | 1. O sistema deve sugerir a apresentação ideal com base nos dados do paciente. <br>2. A forma sugerida deve ser destacada. | Média      | RF05                |
-| US06  | Como profissional da saúde, quero visualizar o horário das doses, a quantidade de frações diárias e a duração do tratamento, para planejar e orientar o paciente corretamente. | 1. O sistema deve calcular e exibir os horários das doses. <br>2. Deve indicar a duração total do tratamento e as frações diárias. | Alta       | RF06                |
-| US07  | Como profissional da saúde, quero alterar manualmente o esquema posológico sugerido pelo sistema, para atender a casos específicos que exigem flexibilidade. | 1. O sistema deve permitir ajustes manuais no esquema de horários e frações. <br>2. O sistema deve exibir os ajustes antes de confirmar a alteração. | Média      | RF07                |
-| US08  | Como profissional da saúde, quero que o sistema utilize informações de bulas, guidelines pediátricas e estudos clínicos, para garantir que o cálculo das doses seja seguro e baseado em evidências científicas. | 1. O sistema deve mostrar a fonte utilizada para cálculo. <br>2. Os dados devem estar atualizados conforme as diretrizes mais recentes. | Alta       | RF08                |
-| US09  | Como administrador do sistema, quero atualizar periodicamente as fontes de dosagem (guidelines, bulas, estudos), para garantir que o sistema reflita as diretrizes mais recentes. | 1. O sistema deve permitir o upload de novas diretrizes. <br>2. O sistema deve exibir a data da última atualização. | Média      | RF09                |
-| US10  | Como profissional da saúde, quero que o sistema exiba a fonte de dosagem utilizada no cálculo, para aumentar a transparência e permitir conferência rápida. | 1. O sistema deve exibir a fonte no momento do cálculo. <br>2. Deve ser possível consultar a fonte diretamente na interface do sistema. | Alta       | RF10                |
+A Tabela 3 a seguir contém as Histórias de Usuárias elicitadas. 
+
+<table>
+    <thead>
+        <tr style="background-color: purple; color: white">
+            <th style="border-style:solid;border-width:1px;text-align:center">ID</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">História de Usuária</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">Critérios de aceitação</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">Prioridade</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">RF/RNF relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US01</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como usuária, quero poder criar uma conta no sistema com meu nome, e-mail e senha, para que eu possa acessar o sistema.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">
+                <ol>
+                    <li>A usuária deve preencher os campos de Nome, E-mail e Senha.</li>
+                    <li>O sistema deve validar se o e-mail informado já está registrado.</li>
+                    <li>O sistema deve confirmar a criação da conta com uma mensagem de sucesso.</li>
+                </ol>
+            </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF01</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US02</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como usuária, quero poder fazer login no sistema com meu e-mail e senha, para que eu possa acessar meu time fictício.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">
+                <ol>
+                    <li>O sistema deve permitir login com e-mail e senha.</li>
+                    <li>O sistema deve exibir uma mensagem de erro caso os dados estejam incorretos.</li>
+                    <li>O sistema deve redirecionar a usuária para a página principal após login bem-sucedido.</li>
+                </ol>
+            </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF02</td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="text-align: center">
+<p>Tabela 3: História de Usuária</p>
+</div>
