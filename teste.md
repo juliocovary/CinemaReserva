@@ -75,7 +75,7 @@
       </tr>
       <tr>
         <td>US08</td>
-        <td>Como usuário, quero que o sistema utilize informações de bulas, guidelines pediátricas e estudos clínicos, para garantir que o cálculo das doses seja seguro e baseado em evidências científicas.</td>
+        <td>Como usuário, quero consultar informações de bulas, guidelines pediátricas e estudos clínicos, para garantir que o cálculo das doses seja seguro.</td>
         <td>1. O sistema deve mostrar a fonte utilizada para cálculo. <br> 2. Os dados devem estar atualizados conforme as diretrizes mais recentes.</td>
         <td>Alta</td>
         <td>RF08</td>
