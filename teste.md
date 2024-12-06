@@ -9,6 +9,21 @@
       width: 100%;
       border-collapse: collapse;
     }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+    }
   </style>
 </head>
 <body>
@@ -26,15 +41,15 @@
     <tbody>
       <tr>
         <td>US01</td>
-        <td>Como usuário, quero consultar rapidamente a posologia de um medicamento, para obter informações precisas.</td>
+        <td>Como usuário, quero consultar rapidamente a posologia de um medicamento, para obter informações precisas e tomar decisões com agilidade.</td>
         <td>1. O sistema deve permitir busca por nome do medicamento. <br> 2. A posologia deve ser exibida de forma clara e detalhada.</td>
         <td>Média</td>
         <td>RF01</td>
       </tr>
       <tr>
         <td>US02</td>
-        <td>Como usuário, quero que o sistema calcule automaticamente a dose com base no peso e idade do paciente.</td>
-        <td>1. O sistema deve aceitar idade e peso como entrada. <br> 2. o sistema deve verificar se os valores informados são válidos. </td> <br> 2. A dose calculada deve ser exibida imediatamente após a entrada dos dados.</td>
+        <td>Como usuário, quero que o sistema calcule automaticamente a dose com base no peso e idade do paciente, para evitar erros manuais e garantir a segurança do tratamento.</td>
+        <td>1. O sistema deve aceitar idade e peso como entrada. <br> 2. A dose calculada deve ser exibida imediatamente após a entrada dos dados. <br> 3. O sistema deve verificar se os valores informados são válidos.</td>
         <td>Alta</td>
         <td>RF02</td>
       </tr>
@@ -75,7 +90,7 @@
       </tr>
       <tr>
         <td>US08</td>
-        <td>Como usuário, quero consultar informações de bulas, guidelines pediátricas e estudos clínicos, para garantir que o cálculo das doses seja seguro.</td>
+        <td>Como usuário, quero que o sistema utilize informações de bulas, guidelines pediátricas e estudos clínicos, para garantir que o cálculo das doses seja seguro e baseado em evidências científicas.</td>
         <td>1. O sistema deve mostrar a fonte utilizada para cálculo. <br> 2. Os dados devem estar atualizados conforme as diretrizes mais recentes.</td>
         <td>Alta</td>
         <td>RF08</td>
