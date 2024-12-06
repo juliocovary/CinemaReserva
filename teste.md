@@ -49,7 +49,7 @@
       <tr>
         <td>US02</td>
         <td>Como usuário, quero que o sistema calcule automaticamente a dose com base no peso e idade do paciente, para evitar erros manuais e garantir a segurança do tratamento.</td>
-        <td>1. O sistema deve aceitar idade e peso como entrada. <br> 2. A dose calculada deve ser exibida imediatamente após a entrada dos dados. <br> 3. O sistema deve verificar se os valores informados são válidos.</td>
+        <td>1. O sistema deve aceitar idade e peso como entrada. <br> 2. O sistema deve verificar se os valores informados são válidos. <br> 3. A dose calculada deve ser exibida imediatamente após a entrada dos dados.</td>
         <td>Alta</td>
         <td>RF02</td>
       </tr>
