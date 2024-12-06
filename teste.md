@@ -26,15 +26,15 @@
     <tbody>
       <tr>
         <td>US01</td>
-        <td>Como usuário, quero consultar rapidamente a posologia de um medicamento, para obter informações precisas e tomar decisões com agilidade.</td>
+        <td>Como usuário, quero consultar rapidamente a posologia de um medicamento, para obter informações precisas.</td>
         <td>1. O sistema deve permitir busca por nome do medicamento. <br> 2. A posologia deve ser exibida de forma clara e detalhada.</td>
         <td>Média</td>
         <td>RF01</td>
       </tr>
       <tr>
         <td>US02</td>
-        <td>Como usuário, quero que o sistema calcule automaticamente a dose com base no peso e idade do paciente, para evitar erros manuais e garantir a segurança do tratamento.</td>
-        <td>1. O sistema deve aceitar idade e peso como entrada. <br> 2. A dose calculada deve ser exibida imediatamente após a entrada dos dados.</td>
+        <td>Como usuário, quero que o sistema calcule automaticamente a dose com base no peso e idade do paciente.</td>
+        <td>1. O sistema deve aceitar idade e peso como entrada. <br> 2. o sistema deve verificar se os valores informados são válidos. </td> <br> 2. A dose calculada deve ser exibida imediatamente após a entrada dos dados.</td>
         <td>Alta</td>
         <td>RF02</td>
       </tr>
