@@ -12,7 +12,7 @@
   </style>
 </head>
 <body>
-  <h1>Histórias de Usuário & Requisitos Funcionais</h1>
+  <h1></h1>
   <table>
     <thead>
       <tr>
