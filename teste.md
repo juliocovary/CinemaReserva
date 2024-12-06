@@ -11,6 +11,7 @@
     <thead>
       <tr>
         <th>ID</th>
+        <th>História de Usuário</th>
         <th>Critérios de Aceitação</th>
         <th>Prioridade</th>
         <th>RF Relacionado</th>
