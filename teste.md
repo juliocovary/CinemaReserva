@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Histórias de Usuário</title>
 </head>
 <body>
   <h1>Histórias de Usuário & Requisitos Funcionais</h1>
